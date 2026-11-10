@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "data_kind": "synthetic",
+  "target_tokens": [
+    "资料",
+    "支持",
+    "回答"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "text": "这是一段自编的演示资料。"
+    }
+  ],
+  "signals": [
+    {
+      "component": "illustrative-layer",
+      "source_id": "s1",
+      "values": [
+        0.2,
+        -0.1,
+        0.4
+      ]
+    }
+  ]
+}
